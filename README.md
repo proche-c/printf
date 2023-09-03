@@ -37,7 +37,7 @@ To compile the proiect, open the terminal and run:
 ```shell  
 $ cd path/to/ft_printf && make
 ```  
-### 2. **Cleaning all binary (.o) and executable files (.a)**.  
+### 2. **Cleaning all binary and executable files**.  
 ```shell  
 $ cd path/to/ft_printf && make fclean
 ```  
