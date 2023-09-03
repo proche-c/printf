@@ -1,6 +1,7 @@
 # 42cursus - Printf
 
-## About
+## About  
+  *For more detailed information, look at the subject of this project.*<br>
 The purpose of this project is to duplicate the behavior of the C function **printf()** , part of the **stdio.h** library.
 It must manage the following parameters:
 - **char** type variables.
@@ -9,9 +10,7 @@ It must manage the following parameters:
 -  **unsigned int** type variables.
 -  **hexadecimal int** type variables.
 -  **pointer** type variables.
-  <br>
-  *For more detailed information, look at the subject of this project.*
-   
+
 ## Files
 ### Makefile
 - Makefile
