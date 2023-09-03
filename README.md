@@ -9,6 +9,8 @@ It must manage the following parameters:
 -  **unsigned int** type variables.
 -  **hexadecimal int** type variables.
 -  **pointer** type variables.
+  <br>
+  *For more detailed information, look at the subject of this project.*
 ## Files
 ### Makefile
 - Makefile
@@ -31,14 +33,27 @@ It must manage the following parameters:
 - ft_putpunt.c
 - ft_putuns_fd.c
 - ft_util_functions.c
-## How to use it  
-### 1. **Compiling the archives**. 
-To compile the proiect, open the terminal and run:  
-```shell  
+## Instructions
+
+### 1. Cloning the repositories  
+```shell
+$ git clone https://github.com/proche-c/printf.git
+```
+### 2. Compiling  
+```shell
 $ cd path/to/printf && make
-```  
-### 2. **Cleaning all binary and executable files**.  
-```shell  
+```
+### 3. How to use it in your code. 
+Include its header in the header of your code:
+```shell
+#include "ft_printf.h"
+```
+and, when compiling your code, add the required flags:
+```shell
+$ -lft -L path/to/libftprintf.a -I path/to/ft_printf.h
+```
+### 4. Cleaning all binary and executable files
+```shell
 $ cd path/to/printf && make fclean
-```  
+```
 
