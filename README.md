@@ -11,6 +11,7 @@ It must manage the following parameters:
 -  **pointer** type variables.
   <br>
   *For more detailed information, look at the subject of this project.*
+   
 ## Files
 ### Makefile
 - Makefile
