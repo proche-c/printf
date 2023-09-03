@@ -35,10 +35,10 @@ It must manage the following parameters:
 ### 1. **Compiling the archives**. 
 To compile the proiect, open the terminal and run:  
 ```shell  
-$ cd path/to/ft_printf && make
+$ cd path/to/printf && make
 ```  
 ### 2. **Cleaning all binary and executable files**.  
 ```shell  
-$ cd path/to/ft_printf && make fclean
+$ cd path/to/printf && make fclean
 ```  
 
